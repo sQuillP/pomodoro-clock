@@ -1,0 +1,106 @@
+.options-container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    min-width: 800px;
+    position: absolute;
+    background-color: #eee;
+    top: 0;
+    left: -150px;
+    padding: 10px;
+}
+
+.create-pomodoro-container{
+    position: relative;
+}
+
+.options-title{
+    text-align: center;
+    padding: 10px;
+}
+
+.options-title h1{
+    margin: 0;
+    
+}
+
+.time-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.options-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.time-wrapper input{
+    width: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.options-button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.exit-wrapper{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    transition: 100ms color linear;
+}
+
+.create-pomodoro-btn{
+    padding: 10px;
+    background-color: limegreen;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+}
+
+.create-pomodoro-btn:hover{
+    background: rgb(43, 160, 43);
+}
+
+
+.create-pomodoro-btn-wrapper{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.exit-wrapper:hover{
+    color: red;
+}
+
+
+.minutes-label, .seconds-label{
+    position: relative;
+}
+
+.minutes-label::before{
+    content: "Minutes";
+    position: absolute;
+    bottom: -50px;
+    left: -5px;
+    color: black;
+    font-size: .9em;
+}
+
+.seconds-label::before{
+    content: "Seconds";
+    position: absolute;
+    bottom: -21px;
+    right: -10px;
+    color: black;
+    font-size: .9em;
+}

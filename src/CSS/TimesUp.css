@@ -1,0 +1,31 @@
+.timesUp-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    min-width: 500px;
+    max-width: 500px;
+    border-radius: 10px;
+    top: 200px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.timesUp-accept-btn{
+    padding: 10px;
+    background-color: limegreen;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2em;
+    transition: 100ms background linear;
+}
+
+
+.timesUp-accept-btn:hover{
+    background:rgb(30, 148, 30);
+    
+}

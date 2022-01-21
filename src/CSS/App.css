@@ -1,0 +1,86 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+    min-width: 500px;
+}
+
+.clock-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.session-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hourGlass{
+    height: 10px;
+    width: 100%;
+    background-color: salmon;
+    transition: 200ms width linear;
+}
+
+.hourGlass-wrapper{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.timer-wrapper{
+    font-size: 2em;
+}
+
+.timer-wrapper h1{
+    margin: 0;
+    padding: 0;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.start-clock, .delete-clock, .restart-timer, .skip-timer{
+    font-size: 2.5em;
+    margin: 0 10px 10px 10px;
+    transition: color 100ms linear;
+}
+
+.delete-clock:hover{
+    color: red;
+}
+
+.restart-timer{
+    color: limegreen;
+}
+
+.start-clock:hover, .skip-timer:hover{
+    color: white;
+}
+
+.button-wrapper button{
+    border-radius: 50%;
+}
+
